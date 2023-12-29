@@ -28,7 +28,7 @@ Please note that this is an unofficial template.
 
 ## Installation
 
-Click on "Use this template" in the top left corner to use this template.
+Click on "Use this template" in the top right corner to use this template.
 
 Or use it in Overleaf.
 
