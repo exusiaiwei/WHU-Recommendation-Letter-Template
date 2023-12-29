@@ -2,13 +2,13 @@
 %
 % Template by Brian Wood (brian.wood@oregonstate.edu).  Please feel free to send suggestions for changes; this template/cls is not exactly elegantly done!
 % Modified by Huang Weiran (huangweiran1998@outlook.com) to fit the need of FDU students.
+% Modified by Wei Zichao (exusiai.wei@outlook.com) to fit the need of WHU students.
 
-
-\documentclass[12pt]{SCUletter}
+\documentclass[12pt]{WHUletter}
 \usepackage{fontspec} 
 \usepackage{tikz} 
 \usepackage{xcolor}
-	\definecolor{scured}{RGB}{149,42,31}
+\definecolor{whugreen}{RGB}{17,87,64}
 \usepackage{lipsum}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
@@ -32,8 +32,8 @@
 \centering%
 \begin{tikzpicture}
     \path (0,0) -- (\paperwidth,\paperheight);
-    \node[opacity=.06] at (current page.center)
-    {\includegraphics[width=0.55\textwidth]{background-scu.pdf}};   % sculogo watermark
+    \node[opacity=.05] at (current page.center)
+    {\includegraphics[width=0.55\textwidth]{background-whu.png}};   % whulogo watermark
     \end{tikzpicture}
 \vfill}}}
 
@@ -75,9 +75,9 @@
 %
 \def\name{xxx \\
 	Professor \\
-	School of Mathematics, SCU \\
-	Harmonic/Functional Analysis \\
-	xxxx@scu.edu.cn 
+	School of Chinese Language and Literature, WHU \\
+	Linguistics and Applied Linguistics \\
+	xxxx@whu.edu.cn 
 }
 %
 % List your degree(s), licences, etc. here if you like.
@@ -86,37 +86,39 @@
 % Set the name of your Department or School here
 % I honestly don't know why the negative spacing is necessary to get the alignment of the first line correct.  This must be a ``\tikz'' thing.
 %%%%%%%%%%%%%%%%%%  School or Department %%%%%%%%%%%%%%%
-\def\Where{\hspace{-1.2mm}\textbf{\color{scured}%{scured}
-		School of Mathematics,\\ Sichuan University
+\def\Where{\hspace{-1.2mm}\textbf{\color{whugreen}%{whugreen}
+School of Chinese Language\\ 
+and Literature,\\
+Wuhan University
 }} 
 
 %%%%%%%%%%%%  Additional Contact Information %%%%%%%%%%%
 %
 % Set your preferred primary contact address here.
-\def\Address{No. 24 First Loop Road
+\def\Address{No.299 Bayi Road
 } 
 %
-\def\CityZip{Chengdu, Sichuan 610065 \\
+\def\CityZip{Wuhan, Hubei 430072 \\
 	P.R.China} 
 %
-% Set your SCU e-mail here
-\def\Email{\textbf{\color{scured}E-mail}: math@scu.edu.cn}
+% Set your whu e-mail here
+\def\Email{\textbf{\color{whugreen}E-mail}: wdzw@whu.edu.cn}
 %
 % Set your preferred contact number here
-\def\TEL{\textbf{\color{scured}Tel/Fax}: +86 28 85412720}
+\def\TEL{\textbf{\color{whugreen}Tel/Fax}: 0086-27-6875 2118}
 %
 % Set your department or personal website here
-\def\URL{\textbf{\color{scured}URL}: {https://math.scu.edu.cn}}
+\def\URL{\textbf{\color{whugreen}URL}: {https://en.whu.edu.cn}}
 %
 
 %%%%%%%%%%%%%%%%  Footer information  %%%%%%%%%%%%%%%%%%
 %
 %  The next line is for your college, used as a footer.  If you prefer not to have this, just comment out these lines in favor of the line labeled "[[Alternate]]" below
 \def\school{\small{
-		SCU $\cdot$
-		~School of Mathematics $\cdot$
-		~No. 24 First Loop Road $\cdot$
-		~Chengdu, China P.R} } 
+		WHU $\cdot$
+		~School of Chinese Language and Literature $\cdot$
+		~No.299 Bayi Road $\cdot$
+		~Wuhan, China P.R} } 
 % \def\school{~}  % [[Alternate]]
 %
 

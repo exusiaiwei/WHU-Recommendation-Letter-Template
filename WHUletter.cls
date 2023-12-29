@@ -1,22 +1,22 @@
 %
-% SCUletter.cls -- a document class for writing letters with OSU letterhead 
-% This class based on "Fudan Recommendation Letter Template" in 2021, Nesime Tatbul (tatbul@cs.brown.edu)
+% WHUletter.cls -- a document class for writing letters with OSU letterhead 
+% This class based on "SCU Recommendation Letter Template" in 2022, Qi Zhai (zhaiqi9897@163.com)
 %
 %	
-% The SCU version modificated by Qi Zhai 
-% (zhaiqi9897@163.com), 10 April 2022
+% The WHU version modificated by Zichao Wei 
+% (exusiai.wei@outlook.com), 29 December 2023
 % Notes:
 %
-% 1. This class can be used for creating letters with SCU logo at the
+% 1. This class can be used for creating letters with WHU logo at the
 %    header and  department address at the footer 
 % 2. It is based on the standard Latex document class, letter.cls.
 % 3. Required packages are epsfig and ifthen.
-% 4. If SCU logo is to be included in the head, then the file
-%    SCUlogo.eps must be provided. Otherwise, the logo is omitted.
+% 4. If WHU logo is to be included in the head, then the file
+%    WHUlogo.eps must be provided. Otherwise, the logo is omitted.
 %
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCUletter}
+\ProvidesClass{WHUletter}
 \RequirePackage{graphicx}
 \RequirePackage{epstopdf}
 \RequirePackage{epsfig}
@@ -35,7 +35,7 @@
 \newcommand{\subject}[1]{\renewcommand{\@subject}{\subjectname: #1}}
 
 \newboolean{logofound}
-\IfFileExists{sculogo.eps}
+\IfFileExists{whulogo.eps}
     {\setboolean{logofound}{true}}
     {\setboolean{logofound}{false}}
 
@@ -75,9 +75,9 @@
     \parbox{4.00in}
     {\raggedright
         \ifthenelse{\boolean{logofound}}
-           {\epsfig{file=sculogo.eps, height=0.96in}}
+           {\epsfig{file=whulogo.eps, height=0.96in}}
            {\parbox[c][2.0in][c]{4.0in}{\hfill} 
-            \ClassWarning{SCUletter}{sculogo.eps COULD NOT BE FOUND!}}
+            \ClassWarning{WHUletter}{whulogo.eps COULD NOT BE FOUND!}}
     } &
 %DEPARTMENT OR SCHOOL
 %  This just sets the size of the box to the right of the logo, and the size of the vertical line.  The vertical line is set by the size of the first numerical argument of the \parbox command.
