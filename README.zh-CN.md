@@ -44,8 +44,10 @@
 ## 徽章
 
 ![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)
-<https://img.shields.io/github/stars/exusiaiwei/WHU-Recommendation-Letter-Template>
-<https://img.shields.io/github/forks/exusiaiwei/WHU-Recommendation-Letter-Template>
+
+![GitHub Repo stars](https://img.shields.io/github/stars/exusiaiwei/WHU-Recommendation-Letter-Template)
+
+![GitHub forks](https://img.shields.io/github/forks/exusiaiwei/WHU-Recommendation-Letter-Template)
 ## 相关仓库
 
 暂无
