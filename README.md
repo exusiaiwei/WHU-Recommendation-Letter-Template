@@ -1,8 +1,12 @@
 # WHU-Recommendation-Letter-Template
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-
 [中文版](https://github.com/exusiaiwei/WHU-Recommendation-Letter-Template/blob/main/readme_zh.md)
+
+![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/exusiaiwei/WHU-Recommendation-Letter-Template)
+
+![GitHub forks](https://img.shields.io/github/forks/exusiaiwei/WHU-Recommendation-Letter-Template)
 
 This project is a LaTeX template for recommendation letters at Wuhan University.
 

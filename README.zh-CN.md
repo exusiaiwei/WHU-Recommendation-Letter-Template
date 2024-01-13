@@ -1,8 +1,12 @@
 # WHU推荐信模板
 
 [English version](https://github.com/exusiaiwei/WHU-Recommendation-Letter-Template/blob/main/readme.md)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)<https://img.shields.io/github/stars/exusiaiwei/WHU-Recommendation-Letter-Template><https://img.shields.io/github/forks/exusiaiwei/WHU-Recommendation-Letter-Template>
 
+![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/exusiaiwei/WHU-Recommendation-Letter-Template)
+
+![GitHub forks](https://img.shields.io/github/forks/exusiaiwei/WHU-Recommendation-Letter-Template)
 本项目为武汉大学推荐信Latex模板。
 
 ## 内容列表
@@ -48,6 +52,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/exusiaiwei/WHU-Recommendation-Letter-Template)
 
 ![GitHub forks](https://img.shields.io/github/forks/exusiaiwei/WHU-Recommendation-Letter-Template)
+
 ## 相关仓库
 
 暂无
